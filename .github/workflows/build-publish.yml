@@ -11,7 +11,7 @@ jobs:
      runs-on: ubuntu-latest
      env:
       OIDC_PROVIDER: 'jfrog'
-      PLATFORM_REPO: 'eks-npm'
+      PLATFORM_REPO: 'my-npm'
       
      steps:
        - name: Checkout
