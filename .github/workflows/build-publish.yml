@@ -10,7 +10,7 @@ jobs:
   build:
      runs-on: ubuntu-latest
      env:
-      OIDC_PROVIDER: 'jfrog'
+      OIDC_PROVIDER: 'jfrog123'
       PLATFORM_REPO: 'my-npm'
       
      steps:
